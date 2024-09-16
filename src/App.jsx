@@ -45,7 +45,7 @@ let routes=createBrowserRouter([
 {path:'AllOrder',element:<ProtectedRoute><AllOrder/></ProtectedRoute>},
 {path:'productDetails/:id/:category',element:<ProtectedRoute><Productdetails/></ProtectedRoute>},
 {path:'cart',element:<ProtectedRoute><Carts/></ProtectedRoute>},
-{path:'*',element:<Notfound/>},
+{path:'*',element:<Register/>},
 ]}
 ])
 
